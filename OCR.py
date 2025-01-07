@@ -44,7 +44,7 @@ def parse_opt(known=False):
 
 
 
-def run(dection, recognite, image_path, output_path):
+def run(detection, recognite, image_path, output_path):
   image = Image.open(image_path)
   trans_img = transform(image)
   trans_img = trans_img[:3].unsqueeze(0)
