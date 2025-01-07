@@ -17,6 +17,7 @@ from utils.general import (
     xyxy2xywh,
 )
 from models.common import DetectMultiBackend
+from models.recognite import CharaterRecognizer
 
 conf_thres = 0.75
 iou_thres = 0.75
